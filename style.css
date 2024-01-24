@@ -1,10 +1,15 @@
+@font-face { 
+    font-family: Calculator; 
+    src:url(Calculator.ttf)
+}
+
 body{
     color: black; 
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Calculator;
 }
 
 .calculator { 
@@ -27,7 +32,7 @@ body{
     flex-direction: column;
     align-items: flex-end;
     justify-content: space-around;
-    width: 345px; 
+    width: 340px; 
     height: 40px; 
     color: black; 
     padding: 25px; 
